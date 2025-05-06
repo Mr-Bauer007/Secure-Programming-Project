@@ -99,7 +99,7 @@ cd secure-file-encryption
 
 # Create a virtual environment
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  #Linux
 
 # Install dependencies
 pip install -r requirements.txt

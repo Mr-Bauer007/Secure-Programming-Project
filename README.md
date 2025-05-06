@@ -52,7 +52,7 @@ A secure client-server application for encrypting and decrypting files, with the
 - Handles incoming requests over HTTPS
 - Encrypts files using AES-GCM
 - Derives keys from passwords using PBKDF2
-- Verifies data integrity with HMAC
+- Verifies data integrity with AES-GCM
 - Returns processed files to the client
 
 ---
@@ -62,7 +62,6 @@ A secure client-server application for encrypting and decrypting files, with the
 - 🔐 HTTPS/TLS for encrypted communication
 - 🧪 AES-GCM for authenticated encryption
 - 🧬 PBKDF2 for secure password-based key derivation
-- 🧾 HMAC for verifying file integrity
 - 🔑 API Key authentication for client access
 - 📉 Rate limiting to protect against brute-force attacks
 

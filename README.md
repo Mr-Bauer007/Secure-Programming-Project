@@ -34,7 +34,6 @@ A secure client-server application for encrypting and decrypting files, with the
 | GUI Client          | Tkinter (Python) |
 | Encryption          | AES-GCM        |
 | Key Derivation      | PBKDF2         |
-| Hashing/Integrity   | HMAC (SHA-256) |
 | Communication       | HTTPS/TLS      |
 | Authentication      | API Keys       |
 

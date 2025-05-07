@@ -46,7 +46,6 @@ A secure client-server application for encrypting and decrypting files, with the
 - Uploads files for encryption/decryption
 - Sends passwords securely for key derivation
 - Downloads encrypted/decrypted files
-- Verifies file integrity using HMAC
 
 ### 🛡️ Server
 - Handles incoming requests over HTTPS

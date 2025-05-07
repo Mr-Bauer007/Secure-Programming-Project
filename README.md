@@ -54,7 +54,22 @@ A secure client-server application for encrypting and decrypting files, with the
 - Returns processed files to the client
 
 ---
+## Project Structure
 
+project/
+│
+├── app.py                  # Flask server
+├── secure_GUI.py           # GUI client
+├── encryption		    # Folder for encrypted files
+├── decryption		    # Folder for decrypted files
+├── test_app.py             # Pytest test cases
+├── tests/
+│   ├── bandit_report.txt
+│   ├── pip_audit_report.txt
+│   ├── bom.json
+│   └── dependencies.txt
+
+---
 ## 🔒 Security Measures
 
 - 🔐 HTTPS/TLS for encrypted communication

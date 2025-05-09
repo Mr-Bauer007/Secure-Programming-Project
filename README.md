@@ -108,11 +108,17 @@ The application underwent both **automated** and **manual** security testing.
 ```bash
 # Clone the repository
 git clone https://github.com/Mr-Bauer007/Secure-Programming-Project
-cd secure-file-encryption
+cd project
 
 # Create a virtual environment
 python3 -m venv venv
 source venv/bin/activate  #Linux
+
+# Run server
+python3 app.py
+
+# Run GUI
+python3 secure_GUI.py
 
 # Install dependencies
 pip install -r requirements.txt
